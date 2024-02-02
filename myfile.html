@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+<script language = "javascript">
+
+function calculateAnswer() {
+	
+	var inputNum1;
+	var inputNum2;
+	
+	inputNum1 = prompt('Enter the larger number: ',0);
+	inputNum2 = prompt('Enter the smaller number: ',0);
+	var outputTotal = inputNum1 - inputNum2;
+	alert('Answer is: ' + outputTotal);
+	
+}
+
+function multiplication() {
+	
+	var inputNum1;
+	var inputNum2;
+	
+	inputNum1 = prompt('Enter the first number: ',0);
+	inputNum2 = prompt('Enter the second number: ',0);
+	var outputTotal = inputNum1 * inputNum2;
+	alert('Answer is: ' + outputTotal);
+	
+}
+
+function division() {
+	
+	var inputNum1;
+	var inputNum2;
+	
+	inputNum1 = prompt('Enter the first number: ',0);
+	inputNum2 = prompt('Enter the second number: ',0);
+	var outputTotal = inputNum1 / inputNum2;
+	alert('Answer is: ' + outputTotal);
+	
+}
+
+function addition() {
+	
+	var inputNum1;
+	var inputNum2;
+	
+	inputNum1 = parseInt(prompt('Enter the first number: ',0));
+	inputNum2 = parseInt(prompt('Enter the second number: ',0));
+	var outputTotal = inputNum1 + inputNum2;
+	alert('Answer is: ' + outputTotal);
+	
+}
+
+function firstSecondName() {
+	
+	var firstName;
+	var secondName;
+	
+	firstName = prompt('Enter your first name: ');
+	secondName = prompt('Enter your second name: ');
+	alert('Your name is: ' + firstName + ' ' + secondName);
+	
+}
+
+</script>
+</head>
+
+<body>
+
+<h3><p> Made by Bartosz Mazur EC2086823</p>
+<form name = 'myForm'>
+	<h1><p> Subtracting Numbers</p>
+		<p> You will be asked for two numbers</p>
+		<p> You will be shown the difference between numbers</p></h1>
+<input type = "button" value = "Start" onclick="calculateAnswer()" ;>
+
+<form name = 'myForm'>
+	<h1><p> Multiplication</p>
+		<p> You will be asked for two numbers</p>
+		<p> You will be shown the multiplication result</p></h1>
+<input type = "button" value = "Start" onclick="multiplication()" ;>
+
+<form name = 'myForm'>
+	<h1><p> Division</p>
+		<p> You will be asked for two numbers</p>
+		<p> You will be shown the division result</p></h1>
+<input type = "button" value = "Start" onclick="division()" ;>
+
+<form name = 'myForm'>
+	<h1><p> Addition</p>
+		<p> You will be asked for two numbers</p>
+		<p> You will be shown the addition result</p></h1>
+<input type = "button" value = "Start" onclick="addition()" ;>
+
+<form name = 'myForm'>
+	<h1><p> Name</p>
+		<p> You will be asked for your First and Second name</p>
+		<p> You will be shown your name</p></h1>
+<input type = "button" value = "Start" onclick="firstSecondName()" ;>
+
+
+</body>
+</html>
+
+	
